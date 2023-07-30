@@ -14,7 +14,7 @@ return {
             cmake_compile_commands_from_lsp = false, -- this will automatically set compile commands file location using lsp, to use it, please set `cmake_soft_link_compile_commands` to false
             cmake_kits_path = nil, -- this is used to specify global cmake kits path, see CMakeKits for detailed usage
             cmake_variants_message = {
-                sort = {show = true}, -- whether to show short message
+                short = {show = true}, -- whether to show short message
                 long = {show = true, max_length = 40} -- whether to show long message
             },
             cmake_dap_configuration = { -- debug settings for cmake
