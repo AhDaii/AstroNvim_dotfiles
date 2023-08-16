@@ -28,11 +28,12 @@ return {
             mode = {"o", "x"},
             function() require("flash").treesitter_search() end,
             desc = icon .. "Treesitter Search(flash)"
-        }, {
-            "s",
-            mode = {"c"},
-            function() require("flash").toggle() end,
-            desc = icon .. "Toggle Flash Search(Flash)"
         }
+        -- {
+        --     "t",
+        --     mode = {"c"},
+        --     function() require("flash").toggle() end,
+        --     desc = icon .. "Toggle Flash Search(Flash)"
+        -- }
     }
 }

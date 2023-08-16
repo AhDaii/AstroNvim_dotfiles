@@ -21,7 +21,7 @@ return {
                 name = "cpp",
                 type = "codelldb",
                 request = "launch",
-                stopOnEntry = true,
+                stopOnEntry = false,
                 runInTerminal = true,
                 console = "integratedTerminal"
             },
