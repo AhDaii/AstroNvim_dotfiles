@@ -24,7 +24,7 @@ return {
             function() require("flash").remote() end,
             desc = icon .. "Remote Flash(Flash)"
         }, {
-            "s",
+            "t",
             mode = {"o", "x"},
             function() require("flash").treesitter_search() end,
             desc = icon .. "Treesitter Search(flash)"
